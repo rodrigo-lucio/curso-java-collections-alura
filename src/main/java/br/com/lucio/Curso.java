@@ -2,7 +2,7 @@ package br.com.lucio;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
+import java.util.List;import com.sun.jdi.IntegerType;
 
 import lombok.ToString;
 
@@ -30,5 +30,13 @@ public class Curso {
 		
 	}
 	
-	
+	public int getTempoTotal() {
+		return aulas.stream().mapToInt(Aula::getTempo).sum();
+	}
+
+	@Override
+	public String toString() {
+		return "Curso [nome=" + nome + ", instrutor=" + instrutor + ", aulas=" + aulas + "]";
+	}
+
 }

@@ -33,7 +33,7 @@ public class DiferencaArrayLinked {
 	private static long removePrimeirosElementos(List<Integer> numeros) {
 		long ini = System.currentTimeMillis();
 
-		for (int i = 0; i < 100; i++) {
+		for (int i = 0; i < 10000; i++) {
 			numeros.remove(0); // removendo sempre o primeiro elemento
 		}
 		long fim = System.currentTimeMillis();
