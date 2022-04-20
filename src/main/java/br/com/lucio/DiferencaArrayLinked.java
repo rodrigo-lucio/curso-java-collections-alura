@@ -33,22 +33,20 @@ public class DiferencaArrayLinked {
 	    private static long removePrimeirosElementos(List<Integer> numeros) {
 	        long ini = System.currentTimeMillis();
 
-	        for (int i = 0; i < 100; i++) {
-	            numeros.remove(0); //removendo sempre o primeiro elemento
-	        }
-	        long fim = System.currentTimeMillis();
-	        return fim-ini;
-	    }
+			for (int i = 0; i < 100; i++) {
+				numeros.remove(0); // removendo sempre o primeiro elemento
+			}
+			long fim = System.currentTimeMillis();
+			return fim - ini;
+		}
 
-	    private static long insereElementosNo(List<Integer> numeros, int quantidade) {
-	        long ini = System.currentTimeMillis();
-	        for (int i = 0; i < quantidade; i++) {
-	            numeros.add(i);
-	        }
-	        long fim = System.currentTimeMillis();
-	        return fim-ini;
-	    }
+		private static long insereElementosNo(List<Integer> numeros, int quantidade) {
+			long ini = System.currentTimeMillis();
+			for (int i = 0; i < quantidade; i++) {
+				numeros.add(i);
+			}
+			long fim = System.currentTimeMillis();
+			return fim - ini;
+		}
 
-	
-	
-}
+	}
