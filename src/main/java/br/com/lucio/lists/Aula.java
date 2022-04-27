@@ -1,4 +1,4 @@
-package br.com.lucio;
+package br.com.lucio.lists;
 
 import lombok.Builder;
 import lombok.Data;
