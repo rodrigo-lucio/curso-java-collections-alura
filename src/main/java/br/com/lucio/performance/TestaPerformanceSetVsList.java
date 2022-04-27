@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
 
-public class TestaPerformanceSetVsArrayList {
+public class TestaPerformanceSetVsList {
 
 	public static void main(String[] args) {
 
