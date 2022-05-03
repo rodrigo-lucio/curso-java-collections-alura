@@ -35,8 +35,4 @@ public class Aluno {
 		return true;
 	}
 	
-
-
-
-	
 }
