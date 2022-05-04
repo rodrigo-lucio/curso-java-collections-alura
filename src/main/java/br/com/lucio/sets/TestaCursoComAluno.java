@@ -9,7 +9,7 @@ import br.com.lucio.lists.Curso;
 
 public class TestaCursoComAluno {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
 		Curso javaColecoes = new Curso("Dominando as coleções do Java", "Paulo Silveira");
 		javaColecoes.adicionar(Aula.builder().titulo("Modelando com coleçoes").tempo(4).build());
