@@ -41,7 +41,9 @@ public class TestaCursoComAluno {
 
 		
 		//Retorna true abaixo pois implementamos o equals e hashcode
+		//Se não implementar o hashcode da ruim
 		Aluno alunoClone = new Aluno("Rodrigo ssLucio", 12345);
+		System.out.println("O aluno com a matricula " + alunoClone.getNumeroMatricula() + " está matriculado?");
 		System.out.println(javaColecoes.estaMatriculado(alunoClone));
 		
 		//Vai retornar igual
