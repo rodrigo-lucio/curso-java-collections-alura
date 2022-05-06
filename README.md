@@ -1,4 +1,4 @@
-## 💻 Curso: ava Collections: Dominando Listas, Sets e Mapas
+## 💻 Curso: Java Collections: Dominando Listas, Sets e Mapas
 
 - Código do curso "Java Collections: Dominando Listas, Sets e Mapas" da Alura
 
